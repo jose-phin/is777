@@ -1,6 +1,6 @@
 #!/bin/bash
 
-current_dir=$(pwd)/*/
+current_dir=$1/*/
 
 printf "id,is 777\n" > result.csv
 for dir in $current_dir
